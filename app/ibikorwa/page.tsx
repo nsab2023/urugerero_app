@@ -62,11 +62,11 @@ export default function IbikorwaPage() {
   const box = {
     border: "1px solid #ccc",
     borderRadius: 8,
-    padding: 20,
+    padding: 10,
     marginBottom: 40,
     backgroundColor: "#f9f9f9",
-    maxWidth: 700,
-    margin: "20px auto"
+    maxWidth: 400,
+    margin: "10px auto"
   }
 
   const input = {

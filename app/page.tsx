@@ -29,7 +29,7 @@ export default function Home() {
         </Link>
 		
         <Link href="/login">
-		  <button style={btn}>Report (Login Required)</button>
+		  <button style={btn}>Report</button>
 		</Link>
 
       </div>
