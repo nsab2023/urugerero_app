@@ -116,9 +116,17 @@ export default function ReportPage() {
     window.location.href = "/login"
   }
 
-  const tableStyle = { borderCollapse: "collapse", width: "100%" }
-  const thStyle = { border: "1px solid #ccc", padding: 8, backgroundColor: "#f0f0f0" }
-  const tdStyle = { border: "1px solid #ccc", padding: 6 }
+  const tableStyle: React.CSSProperties = {
+  borderCollapse: "collapse",
+  width: "100%",}
+  
+  const thStyle: React.CSSProperties = {
+  border: "1px solid #000",
+  padding: "6px",}
+  
+  const tdStyle: React.CSSProperties = {
+  border: "1px solid #ccc",
+  padding: "6px",}
 
   return (
     <div style={{ padding: 20 }}>
